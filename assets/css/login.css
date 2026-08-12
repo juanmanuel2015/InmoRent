@@ -1,0 +1,24 @@
+html,
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+
+body.login{
+    background: url("../img/fondo-inmobiliaria.jpg") center center no-repeat fixed !important;
+    background-size: cover !important;
+}
+
+.card{
+    margin-top:80px;
+    border-radius:20px;
+    background:rgba(255,255,255,.95);
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+.card-header{
+    background:transparent;
+    border:none;
+}
