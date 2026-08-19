@@ -90,10 +90,10 @@ echo '<span class="badge bg-secondary">'.$p["estado"].'</span>';
 </p>
 
 <a
-href="index.php?page=propiedades"
+href="index.php?page=verPropiedad&id=<?= $p["id"] ?>"
 class="btn btn-primary w-100">
 
-Ver Propiedad
+👁️ Ver Propiedad
 
 </a>
 

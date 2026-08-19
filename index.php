@@ -2,7 +2,7 @@
 <?php
 
 session_start();
-
+require_once "controllers/PropiedadController.php";
 
 /*
 |--------------------------------------------------------------------------
@@ -133,6 +133,16 @@ if (isset($_GET["page"])) {
             require_once "views/propiedades/index.php";
 
             break;
+
+            case "verPropiedad":
+
+    $controller = new PropiedadController();
+
+    $propiedad = $controller->ver($_GET["id"]);
+
+    require_once "views/propiedades/ver.php";
+
+break;
 
 
         case "crearPropiedad":

@@ -8,6 +8,12 @@ class PropiedadController
 
     private $modelo;
 
+    public function ver($id){
+
+    return $this->modelo->buscar($id);
+
+}
+
 
     public function __construct()
     {
