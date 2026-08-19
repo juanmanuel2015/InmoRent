@@ -1,4 +1,4 @@
-```php
+
 <?php
 
 $rol = $_SESSION["rol"] ?? "";
@@ -171,5 +171,5 @@ $rol = $_SESSION["rol"] ?? "";
 
     <div class="flex-grow-1">
 
-```
+
 
